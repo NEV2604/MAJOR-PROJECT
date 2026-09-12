@@ -1,0 +1,52 @@
+#root {
+  min-height: 100vh;
+}
+
+.font-display {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.glass {
+  background: rgba(10, 10, 10, 0.82);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.card {
+  background: #0a0a0a;
+  border: 1px solid #181818;
+  border-radius: 16px;
+}
+
+.card-hover {
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease;
+}
+
+.card-hover:hover {
+  background: #0d0d0d;
+  border-color: #252525;
+  transform: translateY(-1px);
+}
+
+.green-glow {
+  box-shadow: 0 0 35px rgba(78, 222, 163, 0.08);
+}
+
+.green-button {
+  background: #4edea3;
+  color: #003824;
+  transition: all 180ms ease;
+}
+
+.green-button:hover {
+  background: #6ffbbe;
+  transform: translateY(-1px);
+}
+
+.number {
+  font-family: "Inter", sans-serif;
+  font-variant-numeric: tabular-nums;
+}
